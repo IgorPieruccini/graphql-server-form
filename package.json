@@ -13,9 +13,10 @@
     "eslint": "^8.24.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.26.0",
+    "nodemon": "^2.0.20",
     "ts-node": "^10.9.1"
   },
   "scripts": {
-    "serve": "ts-node src/server.ts"
+    "serve": "nodemon src/server.ts"
   }
 }
